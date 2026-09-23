@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "it.teetrack/teetrack",
+  "title": "Teetrack",
+  "description": "Privacy-first time tracking for freelancers. EU-hosted, with an MCP server for AI assistants.",
+  "version": "1.0.0",
+  "websiteUrl": "https://teetrack.it",
+  "repository": {
+    "url": "https://github.com/HolyMarcell/teetrack-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://teetrack.it/api/mcp"
+    }
+  ]
+}

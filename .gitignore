@@ -1,0 +1,8 @@
+# DNS-authentication signing key for the MCP Registry (`mcp-publisher login dns`).
+# This is a credential: anyone holding it can publish or overwrite servers under
+# the it.teetrack/* namespace. Never commit it.
+key.pem
+*.pem
+
+# JetBrains IDE
+.idea/
